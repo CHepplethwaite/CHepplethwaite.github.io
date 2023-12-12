@@ -41,16 +41,16 @@
                 <h1 style="color: white;">TumpeTech</h1>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a href="#slide1" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#slide2">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#slide3">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#slide4">Contact</a>
               </li>
              
             </ul>
@@ -64,20 +64,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent2">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="#slide1">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#slide2">About</a>
               </li>
+
               <li class="nav-item">
-                <a class="logo_main" href="index.html"><img src="images/logo.png"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#slide3">Services</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#slide4">Contact</a>
               </li>
               
                         
@@ -88,7 +86,9 @@
       <!-- header section end -->
       <!-- banner section start -->
       <div class="banner_section">
-        <div class="container-fluid">
+        <div class="container-fluid" class="slide-container">
+          
+          <div class="slide" id="slide1">
           <div class="row">
             <div class="col-md-6 padding_0">
               <div id="main_slider" class="carousel slide" data-ride="carousel">
@@ -101,7 +101,7 @@
                         <br></h1>
                         <p class="long_text">We use latest technologies to create exceptional solutions. Let's build your success together.</p>
                         <div class="btn_main">
-                          <div class="about_us"><a href="#">Contact Us</a></div>
+                          <div class="about_us"><a href="#slide4">Contact Us</a></div>
                         
                         </div>
                       </div>
@@ -113,7 +113,7 @@
                         <h1 class="banner_taital">We are here for you</h1>
                         <p class="long_text">Embark on a journey with Tumpetech, where your challenges become opportunities for growth. Let us be the architects of your digital success, leveraging technology to solve problems, unlock potential, and propel your business into the future. Together, we don't just meet expectations; we exceed them.</p>
                         <div class="btn_main">
-                          <div class="about_us"><a href="#">Contact us</a></div>
+                          <div class="about_us"><a href="#slide4">Contact us</a></div>
             
                         </div>
                       </div>
@@ -146,17 +146,23 @@
           </div>
         </div>
       </div>
+    </div>
       <!-- banner section end -->
+
+
       <!-- about section start -->
+      
+      
       <div class="about_section layout_padding">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-6">
               <div class="about_taital">
+                <div class="slide" id="slide2"></div>
                 <h4 class="about_text">About</h4>
                 <h1 class="highest_text">Welcome to Tumpetech,</h1>
                 <p class="lorem_text"> Where innovation meets implementation!  We are a dynamic software solutions company specializing in cutting-edge system management, web development, and sleek designs. At Tumpetech, we turn your ideas into digital reality, crafting seamless solutions that empower your business to thrive in the digital landscape. Elevate your online presence with Tumpetech – where your success is our code!.</p>
-                <div class="read_bt"><a href="#">Contact Us</a></div>
+                <div class="read_bt"><a href="#slide4">Contact Us</a></div>
               </div>
             </div>
             <div class="col-md-6">
@@ -165,8 +171,12 @@
           </div>
         </div>
       </div>
+    </div>
       <!-- about section end -->
+
+
       <!-- care section start -->
+      
       <div class="care_section layout_padding">
         <div class="container-fluid">
           <div class="row">
@@ -175,10 +185,11 @@
             </div>
             <div class="col-md-6">
               <div class="care_taital">
+                <div class="slide" id="slide3">
                 <h4 class="finest_text">Unlock the power of seamless operations with </h4>
                 <h1 class="care_text">Tumpetech's diverse services!</h1>
                 <p class="ipsum_text">From Health Management Information Systems to precise Accounting, Event Ticketing brilliance, HR Management finesse, and precise Inventory Mastery - we've got the systems that drive success. Elevate your digital presence with our unparalleled Web Development and Design expertise.<br> Tumpetech: Transforming Ideas, Excelling in Solutions! </p>
-                <div class="read_bt_2"><a href="#">Contact Us</a></div>
+                <div class="read_bt_2"><a href="#slide4">Contact Us</a></div>
               </div>
             </div>
           </div>
@@ -193,71 +204,74 @@
           <div class="row">
             <div class="col-lg-4">
               <div class="call_box">
-                <div class="call_image"><img src="images/call-icon.png"></div>
-                <h2 class="emergency_text">Health Management Information System</h2>
+                <div class="call_image" style="width: 70px;"><img src="images/health.jpg"></div>
+                <h2 class="emergency_text">Health Management Information Systems</h2>
                 <div class="read_bt" id="Systems"><a href="#">Read More</a></div>
               </div>
             </div>
 
             <div class="col-lg-4">
               <div class="call_box active">
-                <div class="call_image"><img src="images/time-seat-icon.png"></div>
-                <h2 class="emergency_text">Accounting System</h2>
+                <div class="call_image" style="width: 70px;"><img src="images/account.png"></div>
+                <h2 class="emergency_text">Accounting Systems</h2>
                 <div class="read_bt_2" id="Systems"><a href="#">Read More</a></div>
               </div>
             </div>
 
             <div class="col-lg-4">
               <div class="call_box">
-                <div class="call_image"><img src="images/watch-icon.png"></div>
-                <h2 class="emergency_text">Event Ticketing<br>System</h2>
+                <div class="call_image" style="width: 70px;"><img src="images/tick.png"></div>
+                <h2 class="emergency_text">Event Ticketing<br>Systems</h2>
                 <div class="read_bt" id="Systems"><a href="#">Read More</a></div>
               </div>
             </div>
 
             <div class="col-lg-4">
               <div class="call_box active">
-                <div class="call_image"><img src="images/call-icon.png"></div>
-                <h2 class="emergency_text">Human Resource Management System</h2>
+                <div class="call_image" style="width: 70px;"><img src="images/hrm.png"></div>
+                <h2 class="emergency_text">Human Resource Management Systems</h2>
                 <div class="read_bt_2" id="Systems"><a href="#">Read More</a></div>
               </div>
             </div>
             
             <div class="col-lg-4">
               <div class="call_box">
-                <div class="call_image"><img src="images/call-icon.png"></div>
-                <h2 class="emergency_text">Invetory Management System</h2>
+                <div class="call_image" style="width: 70px;"><img src="images/inve.png"></div>
+                <h2 class="emergency_text">Invetory Management Systems</h2>
                 <div class="read_bt" id="Systems"><a href="#">Read More</a></div>
               </div>
             </div>
             
             <div class="col-lg-4">
               <div class="call_box active">
-                <div class="call_image"><img src="images/call-icon.png"></div>
-                <h2 class="emergency_text">Web Development & Design</h2>
+                <div class="call_image" style="width: 70px;"><img src="images/dev.png"></div>
+                <h2 class="emergency_text">Website Development and Design</h2>
                 <div class="read_bt_2" id="Systems"><a href="#">Read More</a></div>
               </div>
             </div>
+          </div>
             
           </div>
         </div>
       </div>
+    </div>
+  
       <!-- services section end -->
-      <!-- doctor section start -->
+
+
+      <!--  section start -->
+      
       <div class="doctor_section layout_padding">
         <div class="container">
           <div class="row">
             <div class="col-md-6 padding_top0">
+              <div class="slide" id="slide4">
               <h4 class="about_text">Why Choose</h4>
                 <h1 class="highest_text">TumpeTech</h1>
                 <p class="lorem_text">Trust Tumpetech for your digital journey because we deliver innovation with integrity. Our commitment to excellence, proven track record in transforming ideas into reality, and a team of skilled professionals dedicated to your success set us apart. At Tumpetech, reliability isn't just a feature; it's the foundation of our client relationships. Your trust is our driving force, and we're here to turn your aspirations into achievements. Choose Tumpetech — where trust meets technology. </p>
-                <div class="read_main">
-                  <div class="read_bt"><a href="#">Contact Us</a></div>
-                </div>
+                
             </div>
-            <div class="col-md-6">
-              <div class="image_4"><img src="images/frontend.jpg"></div>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -333,6 +347,8 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
       <!-- contact section end -->
       <!-- appointment section start -->
       <div class="appointment_section">
@@ -344,7 +360,7 @@
             </div>
             <div class="col-md-6">
               <div class="appointment_bt_main">
-                <div class="appointment_bt"><a href="#">Contact Us</a></div>
+                <div class="appointment_bt"><a href="#slide4">Contact Us</a></div>
               </div>
             </div>
           </div>
@@ -394,6 +410,7 @@
     </div>
     <!-- copyright section end -->
       <!-- Javascript files-->
+      <script src="stp.js"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
@@ -406,6 +423,6 @@
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-      
+     
    </body>
    </html>

@@ -208,6 +208,12 @@ button {
      cursor: pointer;
 }
 
+   .slide {
+ 
+     transition: transform 0.5s ease-in-out;
+   }
+
+
 .full {
      float: left;
      width: 100%;
@@ -230,8 +236,9 @@ button {
     background-color: #000000 !important;
     height: 155px;
 }
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #ff6600;
+    color: #ff6f61;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 20px;
@@ -243,7 +250,7 @@ button {
     float: left;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ff6600;
+    color: #ff6f61;
 }
 .logo_main {
     position: relative;
@@ -336,14 +343,14 @@ button {
      color: #303036;
 }
 #main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover, #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
-    background: #ff6600;
+    background: #ff6f61;
     color: #fff;
 }
 #main_slider a.carousel-control-next {
     position: absolute;
     left: 87%;
     top: 88%;
-    background-color: #ff6600;
+    background-color: #ff6f61;
     color: #ffffff;
 }
 #main_slider a.carousel-control-prev {
@@ -371,7 +378,7 @@ button {
      width: 100%;
      float: left;
      font-size: 20px;
-     color: #ff6600; 
+     color: #ff6f61; 
 }
 .highest_text{
      width: 100%;
@@ -400,7 +407,7 @@ button {
      width: 100%;
      float: left;
      font-size: 18px;
-     background-color: #ff6600;
+     background-color: #ff6f61;
      color: #ffffff;
      padding: 10px 0px;
      text-align: center;
@@ -463,7 +470,7 @@ button {
      width: 100%;
      float: left;
      font-size: 18px;
-     background-color: #ff6600;
+     background-color:#ff6f61;
      color: #ffffff;
      padding: 10px 0px;
      text-align: center;
@@ -489,7 +496,7 @@ button {
     padding: 40px 20px 20px 20px;
 }
 .call_box:hover{
-     background-color: #ff6600;
+     background-color: #ff6f61;
 }
 .call_image{
      width: 100%;
@@ -522,7 +529,7 @@ button {
      margin-left: 0px;
 }
 .call_box.active{
-     background-color: #ff6600;
+     background-color: #ff6f61;
 }
 .doctor_section{
      width: 100%;
@@ -541,7 +548,7 @@ button {
 .contact_section{
      width: 100%;
      float: left;
-     background-color: #db2f0d;
+     background-color: #ff6f61;
      padding-bottom: 90px;
 }
 .email-bt {
@@ -638,8 +645,8 @@ button {
 .appointment_section {
     width: 100%;
     float: left;
-    background-color: #ff6600;
-    border-top: 2px solid #db5800;
+    background-color: #ff6f61;
+    border-top: 2px solid #e46458;
     padding-bottom: 50px;
 }
 .need_text {
@@ -681,7 +688,7 @@ button {
 
 /* info section */
 .info_section {
-    background-color:  #db2f0d;
+    background-color:  #ff6f61;
     font-family: "Poppins", sans-serif;
     width: 100%;
     float: left;
@@ -746,7 +753,7 @@ button {
 }
 
 .info_section .form_container button {
-    background-color: #ef3c3d;
+    background-color: #ff6f61;
     border: none;
     outline: none;
     color: #fff;
@@ -776,7 +783,7 @@ button {
     color: #000;
 }
 .copyright a:hover{
-    color: #ff6600;
+    color: #ff6f61;
 }
 
 .blog_text{
