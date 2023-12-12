@@ -300,7 +300,8 @@ button {
     float: left;
     font-size: 16px;
     color: #000000;
-    background: white;
+    background: rgba(255, 255, 255, 0.356);
+    border:1px white solid;
     box-shadow: -20px 20px 0 rgba(0, 0, 0, 0.308);
     padding: 20px;
     margin-left: 0px;
