@@ -274,7 +274,7 @@ button {
     width: 100%;
     float: left;
     position: relative;
-    background-image: url(../images/banner-bg.png);
+    /* background-image: url(../images/banner-bg.png); */
     height: 660px;
     background-size: 100%;
 }
@@ -292,14 +292,17 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #ff6f61;
     padding-top: 90px;
 }
 .long_text{
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
+    background: white;
+    box-shadow: -20px 20px 0 rgba(0, 0, 0, 0.308);
+    padding: 20px;
     margin-left: 0px;
 }
 .btn_main {
