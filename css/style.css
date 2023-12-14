@@ -823,16 +823,11 @@ button {
 /* 
 css for our projects */
 
-.section {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-around;
-   }
 
    .item {
      width: 300px;
      margin: 20px;
-     padding: 20px;
+     padding: 50px;
      border: 1px solid #ccc;
      text-align: center;
    }
