@@ -370,3 +370,10 @@ $(function () {
 
 
 });
+
+
+// making my link open in another tab
+
+function openLink(url) {
+    window.open(url, '_blank');
+  }
